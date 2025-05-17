@@ -1,0 +1,281 @@
+{
+  "admins": [
+    1174919068
+  ],
+  "blocked_users": [],
+  "statistics": {
+    "total_files_processed": 0,
+    "successful_edits": 0,
+    "failed_operations": 0,
+    "bot_start_time": 1747236043.7323008,
+    "last_reset_time": 1747250651.3173327
+  },
+  "users": {
+    "485527614": {
+      "username": "Odaygholy",
+      "first_name": "عدي الغولي 🇾🇪🇵🇸",
+      "last_seen": 1747261553.20423,
+      "files_processed": 0,
+      "first_seen": 1747253713.3536465,
+      "daily_usage": 0,
+      "daily_reset": 1747253713.3536465
+    },
+    "7923981264": {
+      "username": "Nuhadownloadbot",
+      "first_name": "Test",
+      "last_seen": 1747256301.0408573,
+      "files_processed": 0,
+      "first_seen": 1747256266.6768303,
+      "daily_usage": 0,
+      "daily_reset": 1747256266.6768303
+    },
+    "6660878563": {
+      "username": "",
+      "first_name": "Amir",
+      "last_seen": 1747256292.773701,
+      "files_processed": 0,
+      "first_seen": 1747256292.773701,
+      "daily_usage": 0,
+      "daily_reset": 1747256292.773701
+    },
+    "1174919068": {
+      "username": "AMIRYE2000",
+      "first_name": "H",
+      "last_seen": 1747265740.679663,
+      "files_processed": 0,
+      "first_seen": 1747256934.4147034,
+      "daily_usage": 0,
+      "daily_reset": 1747256934.4147034
+    }
+  },
+  "logs": [
+    {
+      "time": 1747242265.6250246,
+      "user_id": 1174919068,
+      "action": "auto_processing_تفعيل",
+      "status": "success",
+      "details": "تم تفعيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747242275.4762518,
+      "user_id": 1174919068,
+      "action": "auto_processing_تعطيل",
+      "status": "success",
+      "details": "تم تعطيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747250537.730613,
+      "user_id": 6419710955,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747250570.4252827,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747250662.8151815,
+      "user_id": 1174919068,
+      "action": "auto_processing_تفعيل",
+      "status": "success",
+      "details": "تم تفعيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747250664.9576921,
+      "user_id": 1174919068,
+      "action": "auto_processing_تعطيل",
+      "status": "success",
+      "details": "تم تعطيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747251412.2537043,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747251419.7340515,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747252878.2363546,
+      "user_id": 1174919068,
+      "action": "auto_processing_تفعيل",
+      "status": "success",
+      "details": "تم تفعيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747252880.3295932,
+      "user_id": 1174919068,
+      "action": "auto_processing_تعطيل",
+      "status": "success",
+      "details": "تم تعطيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747253150.5635083,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747253154.321421,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747253156.420525,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747253181.3811307,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747253181.4535797,
+      "user_id": 485527614,
+      "action": "admin_access_attempt",
+      "status": "failed",
+      "details": "غير مصرح له"
+    },
+    {
+      "time": 1747253364.1407425,
+      "user_id": 1174919068,
+      "action": "restart_bot",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "time": 1747253888.7018743,
+      "user_id": 1174919068,
+      "action": "auto_processing_تفعيل",
+      "status": "success",
+      "details": "تم تفعيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747255047.0891752,
+      "user_id": 1174919068,
+      "action": "auto_processing_تعطيل",
+      "status": "success",
+      "details": "تم تعطيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747255049.1897984,
+      "user_id": 1174919068,
+      "action": "auto_processing_تفعيل",
+      "status": "success",
+      "details": "تم تفعيل المعالجة التلقائية للقنوات"
+    },
+    {
+      "time": 1747255086.9962354,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    },
+    {
+      "time": 1747255609.7101839,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    },
+    {
+      "time": 1747256647.227106,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    },
+    {
+      "time": 1747257152.8930159,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    },
+    {
+      "time": 1747257337.5047495,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    },
+    {
+      "time": 1747257711.759559,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    },
+    {
+      "time": 1747257883.771692,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    },
+    {
+      "time": 1747261653.6727273,
+      "user_id": null,
+      "action": "auto_process_channel_file",
+      "status": "success",
+      "details": "معالجة ملف صوتي من القناة: Jod_yemen"
+    }
+  ],
+  "scheduled_broadcasts": [],
+  "global_templates": {},
+  "settings": {
+    "welcome_message": "مرحباً بك في بوت تعديل الوسوم الصوتية! أرسل ملف صوتي لبدء التعديل.\n\nيدعم البوت تعديل الوسوم التالية: العنوان، الفنان، الألبوم، فنان الألبوم، السنة، النوع، الملحن، التعليق، رقم المسار، المدة، كلمات الأغنية، وصورة الغلاف.\n\nيمكنك استخدام زر 'إدارة القوالب' لإنشاء وعرض وتعديل القوالب.\n\nاستخدم /help للحصول على مزيد من المعلومات.",
+    "max_file_size_mb": 50,
+    "processing_delay": 0,
+    "daily_user_limit_mb": 0,
+    "log_channel": "",
+    "required_channels": [],
+    "features_enabled": {
+      "templates": true,
+      "lyrics": true,
+      "album_art": true,
+      "required_subscription": false,
+      "auto_processing": true
+    },
+    "notifications": {
+      "new_users": true,
+      "errors": true
+    },
+    "auto_processing": {
+      "auto_publish": false,
+      "source_channel": "-1001861242334",
+      "tag_replacements": {
+        "عيسى الليث \nحيدر الغولي": "عيسى الليث \nحيدر الغولي",
+        "عيسى الليث": "حيدر الغولي"
+      },
+      "smart_templates": {},
+      "remove_links": false,
+      "smart_templates_enabled": false,
+      "forward_to_target": true,
+      "target_channel": "-1001470989107"
+    },
+    "settings": {
+      "features_enabled": {
+        "lyrics": false
+      }
+    }
+  }
+}
