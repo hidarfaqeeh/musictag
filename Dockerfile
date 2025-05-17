@@ -1,21 +1,24 @@
-[project]
-name = "musictag"
-version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.11"
-dependencies = [
-    "anthropic>=0.51.0",
-    "email-validator>=2.2.0",
-    "flask>=3.1.1",
-    "flask-sqlalchemy>=3.1.1",
-    "gunicorn>=23.0.0",
-    "mutagen>=1.47.0",
-    "pillow>=11.2.1",
-    "psutil>=7.0.0",
-    "psycopg2-binary>=2.9.10",
-    "pytelegrambotapi>=4.27.0",
-    "python-dotenv>=1.1.0",
-    "requests>=2.32.3",
-    "telebot>=0.0.5",
-    "telegram>=0.0.1",
-]
+# صورة أساس Python
+FROM python:3.11-slim
+
+# تعيين مجلد العمل
+WORKDIR /app
+
+# تثبيت pipx لتثبيت الأدوات بشكل معزول (مثل poetry إذا لزم)
+RUN apt-get update && apt-get install -y gcc libpq-dev && \
+    pip install --upgrade pip && \
+    pip install poetry && \
+    apt-get clean
+
+# نسخ ملفات المشروع
+COPY . .
+
+# تثبيت التبعيات من pyproject.toml
+RUN poetry config virtualenvs.create false \
+    && poetry install --only main
+
+# تعيين متغيرات البيئة (يمكنك تعديلها أو إدارتها من منصة النشر)
+ENV PYTHONUNBUFFERED=1
+
+# الأمر الافتراضي لتشغيل البوت
+CMD ["python", "bot.py"]
