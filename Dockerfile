@@ -17,4 +17,4 @@ RUN poetry install --no-root
 ENV PYTHONUNBUFFERED=1
 
 # الأمر الافتراضي لتشغيل البوت
-CMD ["poetry", "run", "python", "bot.py"]
+CMD ["poetry", "run", "python", "main.py"]
